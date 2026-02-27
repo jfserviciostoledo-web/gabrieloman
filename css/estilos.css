@@ -261,3 +261,72 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+.contact-info-horizontal {
+    padding: 40px 0;
+    background: white;
+}
+
+.info-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.info-card {
+    background: #f8f9fa;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    border: 1px solid #e9ecef;
+}
+
+.info-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.info-icon {
+    width: 60px;
+    height: 60px;
+    background: #2c3e50;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+}
+
+.info-icon i {
+    font-size: 1.5rem;
+}
+
+.info-content h3 {
+    color: #34495e;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.info-content p {
+    color: #7f8c8d;
+    margin-bottom: 5px;
+}
+
+.info-content a {
+    color: #7f8c8d;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.info-content a:hover {
+    color: #2c3e50;
+}
+
+.info-note {
+    font-size: 0.8rem;
+    color: #95a5a6;
+    display: block;
+    margin-top: 5px;
+}
